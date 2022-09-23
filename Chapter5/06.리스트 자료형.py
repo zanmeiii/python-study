@@ -16,4 +16,11 @@ print(animals[-1])
 animals.append("고라니")
 print(animals)
 
-# - 
+# - 데이터 할당하기
+animals[1] = "청개구리"
+print(animals)
+
+# - 데이터 삭제하기
+
+del animals[0]
+print(animals)
