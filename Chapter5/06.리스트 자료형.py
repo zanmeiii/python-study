@@ -21,6 +21,18 @@ animals[1] = "청개구리"
 print(animals)
 
 # - 데이터 삭제하기
-
 del animals[0]
+print(animals)
+
+# - 리스트 슬라이싱
+print(animals[1:3])
+print(animals[:]) # 전체
+print(animals[:3])
+print(animals[1:])
+
+# - 리스트 길이
+print(len(animals))
+
+# - 리스트 정렬
+animals.sort(reverse=True)
 print(animals)
